@@ -312,12 +312,12 @@ valine:
   enable: true
   appId: n5vy9gQnUaBpvgllfBaEfDeW-gzGzoHsz
   appKey: 3F1LLlv92dcIFqVqlvqcVdLX
-  notify: true
-  verify: true
+  notify: false
+  verify: false
   visitor: true
-  avatar: '小茗' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  avatar: 'mm'
   pageSize: 10
-  placeholder: '请输入您的评论' # Comment Box placeholder
+  placeholder: '请输入您的评论'
   background: /medias/comment_bg.png
 
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
