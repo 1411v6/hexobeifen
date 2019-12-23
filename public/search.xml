@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>MarkDown语法总结</title>
+      <link href="/2019/12/20/markdown-yu-fa-zong-jie/"/>
+      <url>/2019/12/20/markdown-yu-fa-zong-jie/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="MarkDown考核"><a href="#MarkDown考核" class="headerlink" title="MarkDown考核"></a>MarkDown考核</h1><hr><p><em>粗体</em><br><strong>斜体</strong><br><strong><em>粗斜体</em></strong></p><hr><p><a href="https://www.xmubshw.com" target="_blank" rel="noopener">小茗</a></p><hr><p><a href="https://www.xmubshw.com" target="_blank" rel="noopener">https://www.xmubshw.com</a></p><hr><p>[小茗][1]<br>[1]:<a href="https://www.xmubshw.com" target="_blank" rel="noopener">https://www.xmubshw.com</a></p><hr><p><img src="https://www.xmubshw.com/down/logo.png" alt="xm"></p><hr><p>1.有序列表①<br>2.有序列表②</p><hr><ul><li>无序列表①</li><li>无序列表②</li></ul><hr><blockquote><p>新嵌套</p><blockquote><p>新嵌套</p><blockquote><p>新嵌套</p></blockquote></blockquote></blockquote><hr><p><code>&lt;&gt;</code></p><hr><pre><code></code></pre><hr><table><thead><tr><th align="left">左</th><th align="center">中</th><th align="right">右</th></tr></thead><tbody><tr><td align="left">左</td><td align="center">中</td><td align="right">右</td></tr><tr><td align="left">***</td><td align="center"></td><td align="right"></td></tr></tbody></table><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

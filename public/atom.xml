@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小茗Blog</title>
+  
+  <subtitle>小茗Blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xdhxm.xmubshw.com/"/>
+  <updated>2019-12-23T09:18:49.081Z</updated>
+  <id>https://xdhxm.xmubshw.com/</id>
+  
+  <author>
+    <name>小茗</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MarkDown语法总结</title>
+    <link href="https://xdhxm.xmubshw.com/2019/12/20/markdown-yu-fa-zong-jie/"/>
+    <id>https://xdhxm.xmubshw.com/2019/12/20/markdown-yu-fa-zong-jie/</id>
+    <published>2019-12-20T08:40:00.000Z</published>
+    <updated>2019-12-23T09:18:49.081Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;MarkDown考核&quot;&gt;&lt;a href=&quot;#MarkDown考核&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://xdhxm.xmubshw.com/categories/Markdown/"/>
+    
+    
+      <category term="Typora" scheme="https://xdhxm.xmubshw.com/tags/Typora/"/>
+    
+      <category term="Markdown" scheme="https://xdhxm.xmubshw.com/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
