@@ -1,5 +1,5 @@
 ---
-title: Vim基本命令学习笔记
+title: Git基本命令学习笔记
 date: 2019-12-24 11:00:00
 author: 小茗
 img: https://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201803/18/121017tlaa2ia8asaa28pc.jpg!t700x2000.jpg
@@ -7,8 +7,8 @@ top: true
 cover: true
 coverImg: https://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201803/18/121017tlaa2ia8asaa28pc.jpg!t700x2000.jpg
 mathjax: false
-summary: Vim基本命令学习笔记
-categories: Vim
+summary: Git基本命令学习笔记
+categories: Gim
 tags:
   - Git
 ---
