@@ -2,10 +2,10 @@
 title: Git基本命令学习笔记
 date: 2019-12-24 11:00:00
 author: 小茗
-img: https://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201803/18/121017tlaa2ia8asaa28pc.jpg!t700x2000.jpg
+img: https://desk-fd.zol-img.com.cn/t_s960x600c5/g1/M04/0F/0F/ChMljl2f2W-II-2vAEbcng7su_UAAP7oALQx5YARty2717.jpg
 top: true
 cover: true
-coverImg: https://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201803/18/121017tlaa2ia8asaa28pc.jpg!t700x2000.jpg
+coverImg: https://desk-fd.zol-img.com.cn/t_s960x600c5/g1/M04/0F/0F/ChMljl2f2W-II-2vAEbcng7su_UAAP7oALQx5YARty2717.jpg
 mathjax: false
 summary: Git基本命令学习笔记
 categories: Gim
@@ -279,7 +279,7 @@ git diff
 git push 库名 分支名
 ```
 
-推送本地分支到远程分支:
+##### 推送本地分支到远程分支:
 
 ```
 git push 库名 本地分支名:远程分支名
@@ -358,7 +358,7 @@ git tag -d 标签名
 git push 库名 标签名
 ```
 
-一次性推送未推送到远程的标签:
+##### 一次性推送未推送到远程的标签:
 
 ```
 git push 库名 --tags

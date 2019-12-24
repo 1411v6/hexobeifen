@@ -26,8 +26,8 @@
     
     <script src="/libs/jquery/jquery.min.js"></script>
     
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="小茗Blog" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="小茗Blog" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -304,7 +304,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201803/18/121017tlaa2ia8asaa28pc.jpg!t700x2000.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://desk-fd.zol-img.com.cn/t_s960x600c5/g1/M04/0F/0F/ChMljl2f2W-II-2vAEbcng7su_UAAP7oALQx5YARty2717.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -514,14 +514,12 @@
 第三步:上传本地分支到远程库</code></pre><h4 id="合并某分支到当前分支"><a href="#合并某分支到当前分支" class="headerlink" title="合并某分支到当前分支:"></a>合并某分支到当前分支:</h4><pre><code>git merge 分支名</code></pre><p>也可用’rebase’变基操作.</p>
 <h4 id="查看分支合并情况"><a href="#查看分支合并情况" class="headerlink" title="查看分支合并情况:"></a>查看分支合并情况:</h4><pre><code>git log --graph</code></pre><h4 id="隐藏工作区"><a href="#隐藏工作区" class="headerlink" title="隐藏工作区:"></a>隐藏工作区:</h4><pre><code>git stash</code></pre><h4 id="显示工作区"><a href="#显示工作区" class="headerlink" title="显示工作区:"></a>显示工作区:</h4><pre><code>git stash list</code></pre><h4 id="恢复工作区"><a href="#恢复工作区" class="headerlink" title="恢复工作区:"></a>恢复工作区:</h4><pre><code>git stash pop</code></pre><h4 id="恢复工作区后复制一个特定的提交到当前分支"><a href="#恢复工作区后复制一个特定的提交到当前分支" class="headerlink" title="恢复工作区后复制一个特定的提交到当前分支:"></a>恢复工作区后复制一个特定的提交到当前分支:</h4><pre><code>git cherry-pick 版本ID号</code></pre><hr>
 <h3 id="抓取和提交以及克隆"><a href="#抓取和提交以及克隆" class="headerlink" title="抓取和提交以及克隆:"></a>抓取和提交以及克隆:</h3><h4 id="抓取"><a href="#抓取" class="headerlink" title="抓取:"></a>抓取:</h4><pre><code>git pull 库名 分支名</code></pre><p>每次抓取完成后都要对比信息是否正确:</p>
-<pre><code>git diff</code></pre><h4 id="提交"><a href="#提交" class="headerlink" title="提交:"></a>提交:</h4><h5 id="向远程推送分支内容"><a href="#向远程推送分支内容" class="headerlink" title="向远程推送分支内容:"></a>向远程推送分支内容:</h5><pre><code>git push 库名 分支名</code></pre><p>推送本地分支到远程分支:</p>
-<pre><code>git push 库名 本地分支名:远程分支名</code></pre><h4 id="克隆"><a href="#克隆" class="headerlink" title="克隆:"></a>克隆:</h4><pre><code>git clone git链接</code></pre><h4 id="远程库"><a href="#远程库" class="headerlink" title="远程库:"></a>远程库:</h4><h5 id="查看远程库"><a href="#查看远程库" class="headerlink" title="查看远程库:"></a>查看远程库:</h5><pre><code>git remote -v</code></pre><h5 id="删除远程库"><a href="#删除远程库" class="headerlink" title="删除远程库:"></a>删除远程库:</h5><pre><code>git remote rm 库名</code></pre><hr>
+<pre><code>git diff</code></pre><h4 id="提交"><a href="#提交" class="headerlink" title="提交:"></a>提交:</h4><h5 id="向远程推送分支内容"><a href="#向远程推送分支内容" class="headerlink" title="向远程推送分支内容:"></a>向远程推送分支内容:</h5><pre><code>git push 库名 分支名</code></pre><h5 id="推送本地分支到远程分支"><a href="#推送本地分支到远程分支" class="headerlink" title="推送本地分支到远程分支:"></a>推送本地分支到远程分支:</h5><pre><code>git push 库名 本地分支名:远程分支名</code></pre><h4 id="克隆"><a href="#克隆" class="headerlink" title="克隆:"></a>克隆:</h4><pre><code>git clone git链接</code></pre><h4 id="远程库"><a href="#远程库" class="headerlink" title="远程库:"></a>远程库:</h4><h5 id="查看远程库"><a href="#查看远程库" class="headerlink" title="查看远程库:"></a>查看远程库:</h5><pre><code>git remote -v</code></pre><h5 id="删除远程库"><a href="#删除远程库" class="headerlink" title="删除远程库:"></a>删除远程库:</h5><pre><code>git remote rm 库名</code></pre><hr>
 <h3 id="标签"><a href="#标签" class="headerlink" title="标签:"></a>标签:</h3><h4 id="如何打标签"><a href="#如何打标签" class="headerlink" title="如何打标签:"></a>如何打标签:</h4><p>先切换到需要打标签的分支上;</p>
 <pre><code>git checkout 分支名</code></pre><p>打标签:</p>
 <pre><code>git tag 标签内容</code></pre><p>给历史内容打标签:</p>
 <pre><code>git log 标签内容 ID号</code></pre><p>创建有说明的标签:</p>
-<pre><code>git tag -a 标签内容 -m "说明" ID号</code></pre><h4 id="查看标签"><a href="#查看标签" class="headerlink" title="查看标签:"></a>查看标签:</h4><pre><code>git tag</code></pre><h4 id="查看标签说明"><a href="#查看标签说明" class="headerlink" title="查看标签说明:"></a>查看标签说明:</h4><pre><code>git show 标签名</code></pre><h4 id="删除标签"><a href="#删除标签" class="headerlink" title="删除标签:"></a>删除标签:</h4><pre><code>git tag -d 标签名</code></pre><h4 id="推送标签"><a href="#推送标签" class="headerlink" title="推送标签:"></a>推送标签:</h4><pre><code>git push 库名 标签名</code></pre><p>一次性推送未推送到远程的标签:</p>
-<pre><code>git push 库名 --tags</code></pre><h4 id="远程删除标签"><a href="#远程删除标签" class="headerlink" title="远程删除标签"></a>远程删除标签</h4><p>第一步:必须先删除本地标签;</p>
+<pre><code>git tag -a 标签内容 -m "说明" ID号</code></pre><h4 id="查看标签"><a href="#查看标签" class="headerlink" title="查看标签:"></a>查看标签:</h4><pre><code>git tag</code></pre><h4 id="查看标签说明"><a href="#查看标签说明" class="headerlink" title="查看标签说明:"></a>查看标签说明:</h4><pre><code>git show 标签名</code></pre><h4 id="删除标签"><a href="#删除标签" class="headerlink" title="删除标签:"></a>删除标签:</h4><pre><code>git tag -d 标签名</code></pre><h4 id="推送标签"><a href="#推送标签" class="headerlink" title="推送标签:"></a>推送标签:</h4><pre><code>git push 库名 标签名</code></pre><h5 id="一次性推送未推送到远程的标签"><a href="#一次性推送未推送到远程的标签" class="headerlink" title="一次性推送未推送到远程的标签:"></a>一次性推送未推送到远程的标签:</h5><pre><code>git push 库名 --tags</code></pre><h4 id="远程删除标签"><a href="#远程删除标签" class="headerlink" title="远程删除标签"></a>远程删除标签</h4><p>第一步:必须先删除本地标签;</p>
 <pre><code>git tag -d 标签名</code></pre><p>第二步:再删除远程标签;</p>
 <pre><code>git push 库名 :refs/tags/标签名</code></pre><hr>
 <script>
