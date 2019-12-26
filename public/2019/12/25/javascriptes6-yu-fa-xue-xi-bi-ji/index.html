@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Vim基本命令学习笔记, 小茗Blog">
-    <meta name="description" content="Vim基本命令学习笔记">
+    <meta name="keywords" content="JavaScriptES6语法学习笔记, 小茗Blog">
+    <meta name="description" content="JavaScriptES6语法学习笔记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Vim基本命令学习笔记 | 小茗Blog</title>
+    <title>JavaScriptES6语法学习笔记 | 小茗Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -304,12 +304,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://www.xmubshw.com/down/xdh/Vimimg.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://www.xmubshw.com/down/xdh/JavaScriptES6img.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Vim基本命令学习笔记</h1>
+                    <h1 class="description center-align post-title">JavaScriptES6语法学习笔记</h1>
                 </div>
             </div>
         </div>
@@ -426,8 +426,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Vim/">
-                                <span class="chip bg-color">Vim</span>
+                            <a href="/tags/JavaScript/">
+                                <span class="chip bg-color">JavaScript</span>
+                            </a>
+                        
+                            <a href="/tags/ES6/">
+                                <span class="chip bg-color">ES6</span>
                             </a>
                         
                     </div>
@@ -438,8 +442,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Vim/" class="post-category">
-                                Vim
+                            <a href="/categories/JavaScript/" class="post-category">
+                                JavaScript
                             </a>
                         
                     </div>
@@ -451,28 +455,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-12-24
+                    2019-12-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2019-12-25
+                    2019-12-26
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    752
+                    143
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
 				
@@ -488,80 +492,17 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Vim"><a href="#Vim" class="headerlink" title="Vim"></a>Vim</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念:"></a>概念:</h2><pre><code>Vim是从Vi发展出来的一个文件编辑器</code></pre><hr>
-<h2 id="三种模式"><a href="#三种模式" class="headerlink" title="三种模式:"></a>三种模式:</h2><table>
-<thead>
-<tr>
-<th align="center">命令模式</th>
-<th align="center">输入模式</th>
-<th align="center">底线命令模式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">此状态下敲击键盘会被Vim识别为命令,而非代码</td>
-<td align="center">命令模式下按I进入输入模式</td>
-<td align="center">命令模式下按:(英文冒号)进入底线命令模式</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标:"></a>移动光标:</h2><pre><code>h:左移;j:下移;k:上移;l:右移
-如:
-向下移十行:10j;
-向上移十行:10k;
-向下移一页:pgDn;向上移一页:pgUp;
-向下移半页:Ctrl+d;向上移半页:Ctrl+u;
-移动到本行首字符:Home;移动到本行尾字符:End;
-移动到最上方一行(当前屏幕):H;移动到最中间一行(当前屏幕):M;移动到最后一行(当前屏幕):L;
-移动到最上方一行(全部代码最上方):gg;移动到最下方一行(全部代码最下方):G;
-向下移动n行:n&lt;Enter&gt;(回车键);或nG;</code></pre><hr>
-<h2 id="搜索替换"><a href="#搜索替换" class="headerlink" title="搜索替换:"></a>搜索替换:</h2><h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索:"></a>搜索:</h3><pre><code>向光标之下查询:/需要查询的字符;向下重复查询:n;
-向光标之上查询:?需要查询的字符;向上重复查询:N;</code></pre><h3 id="替换"><a href="#替换" class="headerlink" title="替换:"></a>替换:</h3><pre><code>替换当前行:':s/需要替换的字符/替换的字符/g'
-替换多行:':n1,n2s/需要替换的字符/替换的字符/g'
-
-例:
-在5-10行里查找到Word,并替换为Excal
-:5,10/Word/Excal/g
-
-从第1行到最后一行里查找到Word,并替换为Excal
-:1,$s/Word/Excal/g</code></pre><hr>
-<h2 id="删除及复制以及粘贴"><a href="#删除及复制以及粘贴" class="headerlink" title="删除及复制以及粘贴:"></a>删除及复制以及粘贴:</h2><h3 id="删除"><a href="#删除" class="headerlink" title="删除:"></a>删除:</h3><pre><code>向后删除一个字符:x;向前删除一个字符:X;
-连续向后删除n个字符:nx;
-删除光标所在一行:dd;删除光标下n行:ndd;删除光标到本行最后一个字符:d$;
-重复删除:c;
-例:
-向下删除10行:10cj;向上删除10行:10ck;</code></pre><h3 id="复制"><a href="#复制" class="headerlink" title="复制:"></a>复制:</h3><pre><code>复制光标一行:yy;复制光标下n行:nyy;</code></pre><h3 id="粘贴"><a href="#粘贴" class="headerlink" title="粘贴:"></a>粘贴:</h3><pre><code>粘贴复制的数据到光标下一行:p;粘贴复制的数据到光标上一行:P;</code></pre><hr>
-<h2 id="合并"><a href="#合并" class="headerlink" title="合并:"></a>合并:</h2><pre><code>合并行:n1,n2 j
-例:
-合并2-5行:
-2,5 j</code></pre><hr>
-<h2 id="编辑按钮"><a href="#编辑按钮" class="headerlink" title="编辑按钮:"></a>编辑按钮:</h2><table>
-<thead>
-<tr>
-<th align="center">编辑按钮①</th>
-<th align="center">编辑按钮②</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">i:从当前光标插入</td>
-<td align="center">I:从当前行的第一个字符开始插入(行首插入)</td>
-</tr>
-<tr>
-<td align="center">a:从光标所在的下一个字符插入</td>
-<td align="center">A:从当前所在行的最后一个字符开始插入(行尾插入)</td>
-</tr>
-<tr>
-<td align="center">o:从光标所在的下一行插入新的一行</td>
-<td align="center">O:从光标所在的上一行插入新的一行</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="存储和离开"><a href="#存储和离开" class="headerlink" title="存储和离开:"></a>存储和离开:</h2><pre><code>写入不退出:':w';离开:':q';存储离开:':wq';强制:'!'</code></pre><hr>
-<h2 id="行号"><a href="#行号" class="headerlink" title="行号:"></a>行号:</h2><pre><code>开启行号:set nu
-取消行号:set nonu</code></pre><hr>
-<h2 id="代码折叠"><a href="#代码折叠" class="headerlink" title="代码折叠:"></a>代码折叠:</h2><pre><code>打开折叠:zR;关闭折叠:zM;删除折叠:zE;
-例:
-折叠5-10行代码:zf10G</code></pre><hr>
-<script>
+                <h1 id="JavaScriptES6"><a href="#JavaScriptES6" class="headerlink" title="JavaScriptES6"></a>JavaScriptES6</h1><h2 id="ES6箭头函数"><a href="#ES6箭头函数" class="headerlink" title="ES6箭头函数:"></a>ES6箭头函数:</h2><pre><code>例:
+let fn = val =&gt; val;
+此语法等同于:
+let fn = function(val){
+    return val;
+}</code></pre><pre><code>箭头函数:
+* 简化函数的声明;
+* 参数超过1个时必须加();
+* 函数体超过1行时,必须加{},并自己写return.</code></pre><pre><code>箭头函数的作用:
+* 简化回调函数;
+* 箭头函数中的this是函数声明时所在的对象.</code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -604,7 +545,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://xdhxm.xmubshw.com/2019/12/24/vim-ji-ben-ming-ling-xue-xi-bi-ji/">https://xdhxm.xmubshw.com/2019/12/24/vim-ji-ben-ming-ling-xue-xi-bi-ji/</a>
+                    <a href="https://xdhxm.xmubshw.com/2019/12/25/javascriptes6-yu-fa-xue-xi-bi-ji/">https://xdhxm.xmubshw.com/2019/12/25/javascriptes6-yu-fa-xue-xi-bi-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -642,8 +583,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Vim/">
-                                    <span class="chip bg-color">Vim</span>
+                                <a href="/tags/JavaScript/">
+                                    <span class="chip bg-color">JavaScript</span>
+                                </a>
+                            
+                                <a href="/tags/ES6/">
+                                    <span class="chip bg-color">ES6</span>
                                 </a>
                             
                         </div>
@@ -1076,30 +1021,30 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/24/linux-ji-ben-cao-zuo-xue-xi-bi-ji/">
+                <a href="/2019/12/25/javascript-xue-xi-bi-ji/">
                     <div class="card-image">
                         
-                        <img src="https://www.xmubshw.com/down/xdh/Linuximg.jpg" class="responsive-img" alt="Linux基本操作学习笔记">
+                        <img src="https://www.xmubshw.com/down/xdh/JavaScriptimg.jpg" class="responsive-img" alt="JavaScript学习笔记">
                         
-                        <span class="card-title">Linux基本操作学习笔记</span>
+                        <span class="card-title">JavaScript学习笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Linux基本操作学习笔记
+                            JavaScript学习笔记
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-24
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-25
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Linux/" class="post-category">
-                                    Linux
+                            <a href="/categories/JavaScript/" class="post-category">
+                                    JavaScript
                                 </a>
                             
                             
@@ -1109,8 +1054,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Linux/">
-                        <span class="chip bg-color">Linux</span>
+                    <a href="/tags/JavaScript/">
+                        <span class="chip bg-color">JavaScript</span>
                     </a>
                     
                 </div>
@@ -1124,30 +1069,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/12/24/git-ji-ben-ming-ling-xue-xi-bi-ji/">
+                <a href="/2019/12/25/c-yu-yan-xue-xi-bi-ji/">
                     <div class="card-image">
                         
-                        <img src="https://www.xmubshw.com/down/xdh/Gitimg.jpg" class="responsive-img" alt="Git基本命令学习笔记">
+                        <img src="https://www.xmubshw.com/down/xdh/Cyuyanimg.jpg" class="responsive-img" alt="C语言学习笔记">
                         
-                        <span class="card-title">Git基本命令学习笔记</span>
+                        <span class="card-title">C语言学习笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git基本命令学习笔记
+                            C语言学习笔记
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-25
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Git/" class="post-category">
-                                    Git
+                            <a href="/categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    C语言
                                 </a>
                             
                             
@@ -1157,8 +1102,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Git/">
-                        <span class="chip bg-color">Git</span>
+                    <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                        <span class="chip bg-color">C语言</span>
                     </a>
                     
                 </div>

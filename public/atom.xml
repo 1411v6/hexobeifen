@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xdhxm.xmubshw.com/"/>
-  <updated>2019-12-24T06:38:07.895Z</updated>
+  <updated>2019-12-26T01:53:34.731Z</updated>
   <id>https://xdhxm.xmubshw.com/</id>
   
   <author>
@@ -17,11 +17,121 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JavaScript学习笔记</title>
+    <link href="https://xdhxm.xmubshw.com/2019/12/25/javascript-xue-xi-bi-ji/"/>
+    <id>https://xdhxm.xmubshw.com/2019/12/25/javascript-xue-xi-bi-ji/</id>
+    <published>2019-12-25T06:00:00.000Z</published>
+    <updated>2019-12-26T01:53:34.731Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript&quot;&gt;&lt;/a&gt;JavaScript&lt;/h1&gt;&lt;h2 id=&quot;作用分区&quot;&gt;&lt;a href=&quot;#作用分区&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://xdhxm.xmubshw.com/categories/JavaScript/"/>
+    
+    
+      <category term="JavaScript" scheme="https://xdhxm.xmubshw.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScriptES6语法学习笔记</title>
+    <link href="https://xdhxm.xmubshw.com/2019/12/25/javascriptes6-yu-fa-xue-xi-bi-ji/"/>
+    <id>https://xdhxm.xmubshw.com/2019/12/25/javascriptes6-yu-fa-xue-xi-bi-ji/</id>
+    <published>2019-12-25T06:00:00.000Z</published>
+    <updated>2019-12-26T01:53:26.743Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JavaScriptES6&quot;&gt;&lt;a href=&quot;#JavaScriptES6&quot; class=&quot;headerlink&quot; title=&quot;JavaScriptES6&quot;&gt;&lt;/a&gt;JavaScriptES6&lt;/h1&gt;&lt;h2 id=&quot;ES6箭头函数&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://xdhxm.xmubshw.com/categories/JavaScript/"/>
+    
+    
+      <category term="JavaScript" scheme="https://xdhxm.xmubshw.com/tags/JavaScript/"/>
+    
+      <category term="ES6" scheme="https://xdhxm.xmubshw.com/tags/ES6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言学习笔记</title>
+    <link href="https://xdhxm.xmubshw.com/2019/12/25/c-yu-yan-xue-xi-bi-ji/"/>
+    <id>https://xdhxm.xmubshw.com/2019/12/25/c-yu-yan-xue-xi-bi-ji/</id>
+    <published>2019-12-25T01:00:00.000Z</published>
+    <updated>2019-12-25T06:43:58.309Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;C语言&quot;&gt;&lt;a href=&quot;#C语言&quot; class=&quot;headerlink&quot; title=&quot;C语言&quot;&gt;&lt;/a&gt;C语言&lt;/h1&gt;&lt;h2 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C语言" scheme="https://xdhxm.xmubshw.com/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="C语言" scheme="https://xdhxm.xmubshw.com/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux基本操作学习笔记</title>
+    <link href="https://xdhxm.xmubshw.com/2019/12/24/linux-ji-ben-cao-zuo-xue-xi-bi-ji/"/>
+    <id>https://xdhxm.xmubshw.com/2019/12/24/linux-ji-ben-cao-zuo-xue-xi-bi-ji/</id>
+    <published>2019-12-24T15:55:00.000Z</published>
+    <updated>2019-12-25T11:10:39.507Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h1&gt;&lt;h2 id=&quot;运行级别&quot;&gt;&lt;a href=&quot;#运行级别&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="https://xdhxm.xmubshw.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://xdhxm.xmubshw.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vim基本命令学习笔记</title>
     <link href="https://xdhxm.xmubshw.com/2019/12/24/vim-ji-ben-ming-ling-xue-xi-bi-ji/"/>
     <id>https://xdhxm.xmubshw.com/2019/12/24/vim-ji-ben-ming-ling-xue-xi-bi-ji/</id>
     <published>2019-12-24T03:00:00.000Z</published>
-    <updated>2019-12-24T06:38:07.895Z</updated>
+    <updated>2019-12-25T08:51:19.113Z</updated>
     
     <summary type="html">
     
@@ -48,7 +158,7 @@
     <link href="https://xdhxm.xmubshw.com/2019/12/24/git-ji-ben-ming-ling-xue-xi-bi-ji/"/>
     <id>https://xdhxm.xmubshw.com/2019/12/24/git-ji-ben-ming-ling-xue-xi-bi-ji/</id>
     <published>2019-12-24T03:00:00.000Z</published>
-    <updated>2019-12-24T08:52:38.874Z</updated>
+    <updated>2019-12-25T06:52:11.056Z</updated>
     
     <summary type="html">
     
@@ -63,7 +173,7 @@
     </summary>
     
     
-      <category term="Gim" scheme="https://xdhxm.xmubshw.com/categories/Gim/"/>
+      <category term="Git" scheme="https://xdhxm.xmubshw.com/categories/Git/"/>
     
     
       <category term="Git" scheme="https://xdhxm.xmubshw.com/tags/Git/"/>
@@ -75,7 +185,7 @@
     <link href="https://xdhxm.xmubshw.com/2019/12/23/markdown-xue-xi-bi-ji/"/>
     <id>https://xdhxm.xmubshw.com/2019/12/23/markdown-xue-xi-bi-ji/</id>
     <published>2019-12-23T15:00:00.000Z</published>
-    <updated>2019-12-24T03:23:01.332Z</updated>
+    <updated>2019-12-25T08:50:34.437Z</updated>
     
     <summary type="html">
     

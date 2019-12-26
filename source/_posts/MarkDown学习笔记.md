@@ -2,10 +2,10 @@
 title: MarkDown学习笔记
 date: 2019-12-23 23:00:00
 author: 小茗
-img: http://www.welovetour.com.tw/Files/TourDay/2013925171321.jpg
+img: https://www.xmubshw.com/down/xdh/MarkDownimg.jpg
 top: true
 cover: true
-coverImg: http://www.welovetour.com.tw/Files/TourDay/2013925171321.jpg
+coverImg: https://www.xmubshw.com/down/xdh/MarkDownimg.jpg
 mathjax: false
 summary: MarkDown学习笔记
 categories: Markdown

@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Vim基本命令学习笔记, 小茗Blog">
-    <meta name="description" content="Vim基本命令学习笔记">
+    <meta name="keywords" content="C语言学习笔记, 小茗Blog">
+    <meta name="description" content="C语言学习笔记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Vim基本命令学习笔记 | 小茗Blog</title>
+    <title>C语言学习笔记 | 小茗Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -304,12 +304,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://www.xmubshw.com/down/xdh/Vimimg.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://www.xmubshw.com/down/xdh/Cyuyanimg.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Vim基本命令学习笔记</h1>
+                    <h1 class="description center-align post-title">C语言学习笔记</h1>
                 </div>
             </div>
         </div>
@@ -426,8 +426,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Vim/">
-                                <span class="chip bg-color">Vim</span>
+                            <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                                <span class="chip bg-color">C语言</span>
                             </a>
                         
                     </div>
@@ -438,8 +438,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Vim/" class="post-category">
-                                Vim
+                            <a href="/categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
+                                C语言
                             </a>
                         
                     </div>
@@ -451,7 +451,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-12-24
+                    2019-12-25
                 </div>
                 
 
@@ -465,14 +465,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    752
+                    2.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    10 分
                 </div>
                 
 				
@@ -488,79 +488,559 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Vim"><a href="#Vim" class="headerlink" title="Vim"></a>Vim</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念:"></a>概念:</h2><pre><code>Vim是从Vi发展出来的一个文件编辑器</code></pre><hr>
-<h2 id="三种模式"><a href="#三种模式" class="headerlink" title="三种模式:"></a>三种模式:</h2><table>
+                <h1 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念:"></a>概念:</h2><pre><code>C语言是一种通用的,面向过程式的计算机程序设计语言,1972年,为了移植于开发UNIX操作系统,丹尼斯里奇在贝尔电话实验室设计开发了C语言.</code></pre><hr>
+<h2 id="涵义"><a href="#涵义" class="headerlink" title="涵义:"></a>涵义:</h2><table>
 <thead>
 <tr>
-<th align="center">命令模式</th>
-<th align="center">输入模式</th>
-<th align="center">底线命令模式</th>
+<th align="center">涵义</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">此状态下敲击键盘会被Vim识别为命令,而非代码</td>
-<td align="center">命令模式下按I进入输入模式</td>
-<td align="center">命令模式下按:(英文冒号)进入底线命令模式</td>
+<td align="center">/<em>…</em>/:用于注释说明</td>
+</tr>
+<tr>
+<td align="center">printf():用于格式化输出到屏幕,printf()函数在’stdio.h’头文件中声明</td>
+</tr>
+<tr>
+<td align="center">stdio.h:头文件(标准输入输出头文件),#include是一个预处理命令,用来引入头文件,当编译器遇到printf()函数时,如果没有找到stdio.h头文件,会发生编译错误</td>
+</tr>
+<tr>
+<td align="center">return 0:语句用于表示退出程序</td>
+</tr>
+<tr>
+<td align="center">int:标识符,定义整数型</td>
+</tr>
+<tr>
+<td align="center">main:C语言入口函数</td>
 </tr>
 </tbody></table>
 <hr>
-<h2 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标:"></a>移动光标:</h2><pre><code>h:左移;j:下移;k:上移;l:右移
-如:
-向下移十行:10j;
-向上移十行:10k;
-向下移一页:pgDn;向上移一页:pgUp;
-向下移半页:Ctrl+d;向上移半页:Ctrl+u;
-移动到本行首字符:Home;移动到本行尾字符:End;
-移动到最上方一行(当前屏幕):H;移动到最中间一行(当前屏幕):M;移动到最后一行(当前屏幕):L;
-移动到最上方一行(全部代码最上方):gg;移动到最下方一行(全部代码最下方):G;
-向下移动n行:n&lt;Enter&gt;(回车键);或nG;</code></pre><hr>
-<h2 id="搜索替换"><a href="#搜索替换" class="headerlink" title="搜索替换:"></a>搜索替换:</h2><h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索:"></a>搜索:</h3><pre><code>向光标之下查询:/需要查询的字符;向下重复查询:n;
-向光标之上查询:?需要查询的字符;向上重复查询:N;</code></pre><h3 id="替换"><a href="#替换" class="headerlink" title="替换:"></a>替换:</h3><pre><code>替换当前行:':s/需要替换的字符/替换的字符/g'
-替换多行:':n1,n2s/需要替换的字符/替换的字符/g'
-
-例:
-在5-10行里查找到Word,并替换为Excal
-:5,10/Word/Excal/g
-
-从第1行到最后一行里查找到Word,并替换为Excal
-:1,$s/Word/Excal/g</code></pre><hr>
-<h2 id="删除及复制以及粘贴"><a href="#删除及复制以及粘贴" class="headerlink" title="删除及复制以及粘贴:"></a>删除及复制以及粘贴:</h2><h3 id="删除"><a href="#删除" class="headerlink" title="删除:"></a>删除:</h3><pre><code>向后删除一个字符:x;向前删除一个字符:X;
-连续向后删除n个字符:nx;
-删除光标所在一行:dd;删除光标下n行:ndd;删除光标到本行最后一个字符:d$;
-重复删除:c;
-例:
-向下删除10行:10cj;向上删除10行:10ck;</code></pre><h3 id="复制"><a href="#复制" class="headerlink" title="复制:"></a>复制:</h3><pre><code>复制光标一行:yy;复制光标下n行:nyy;</code></pre><h3 id="粘贴"><a href="#粘贴" class="headerlink" title="粘贴:"></a>粘贴:</h3><pre><code>粘贴复制的数据到光标下一行:p;粘贴复制的数据到光标上一行:P;</code></pre><hr>
-<h2 id="合并"><a href="#合并" class="headerlink" title="合并:"></a>合并:</h2><pre><code>合并行:n1,n2 j
-例:
-合并2-5行:
-2,5 j</code></pre><hr>
-<h2 id="编辑按钮"><a href="#编辑按钮" class="headerlink" title="编辑按钮:"></a>编辑按钮:</h2><table>
+<h2 id="a-和-a区别"><a href="#a-和-a区别" class="headerlink" title="a++和++a区别:"></a>a++和++a区别:</h2><table>
 <thead>
 <tr>
-<th align="center">编辑按钮①</th>
-<th align="center">编辑按钮②</th>
+<th align="center">a++</th>
+<th align="center">++a</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">i:从当前光标插入</td>
-<td align="center">I:从当前行的第一个字符开始插入(行首插入)</td>
-</tr>
-<tr>
-<td align="center">a:从光标所在的下一个字符插入</td>
-<td align="center">A:从当前所在行的最后一个字符开始插入(行尾插入)</td>
-</tr>
-<tr>
-<td align="center">o:从光标所在的下一行插入新的一行</td>
-<td align="center">O:从光标所在的上一行插入新的一行</td>
+<td align="center">a = 10 c = a++ 结果为c=10;a=11,此为先赋值后运算</td>
+<td align="center">a = 10 c = ++a 结果为c=11;a=10,此为先运算后赋值</td>
 </tr>
 </tbody></table>
 <hr>
-<h2 id="存储和离开"><a href="#存储和离开" class="headerlink" title="存储和离开:"></a>存储和离开:</h2><pre><code>写入不退出:':w';离开:':q';存储离开:':wq';强制:'!'</code></pre><hr>
-<h2 id="行号"><a href="#行号" class="headerlink" title="行号:"></a>行号:</h2><pre><code>开启行号:set nu
-取消行号:set nonu</code></pre><hr>
-<h2 id="代码折叠"><a href="#代码折叠" class="headerlink" title="代码折叠:"></a>代码折叠:</h2><pre><code>打开折叠:zR;关闭折叠:zM;删除折叠:zE;
+<h2 id="C语言关键字"><a href="#C语言关键字" class="headerlink" title="C语言关键字:"></a>C语言关键字:</h2><table>
+<thead>
+<tr>
+<th align="center">C语言关键字</th>
+<th align="center">C语言关键字</th>
+<th align="center">C语言关键字</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">auto:声明自动变量</td>
+<td align="center">break:跳出当前循环,一般与switch连用</td>
+<td align="center">case:开关语句分支.与switch连用</td>
+</tr>
+<tr>
+<td align="center">char:声明字符型变量或函数返回值类型</td>
+<td align="center">const:声明只读变量</td>
+<td align="center">continue:结束当前循环,开始下一轮循环</td>
+</tr>
+<tr>
+<td align="center">default:开关语句中的’其他分支’,一般与switch连用,用于描述其他情况</td>
+<td align="center">do:循环语句的循环体</td>
+<td align="center">double:声明双精度浮点型变量或函数返回值类型</td>
+</tr>
+<tr>
+<td align="center">else:条件语句否定分支(与if连用)</td>
+<td align="center">enum:声明枚举变量</td>
+<td align="center">extern:声明变量或函数是在其它文件或本文件的其他位置定义</td>
+</tr>
+<tr>
+<td align="center">float:声明浮点型变量或函数返回值类型</td>
+<td align="center">for:一种循环语句</td>
+<td align="center">goto:无条件跳转语句</td>
+</tr>
+<tr>
+<td align="center">if:条件语句</td>
+<td align="center">int:声明整型变量或函数</td>
+<td align="center">long:声明长整型变量或函数返回值类型</td>
+</tr>
+<tr>
+<td align="center">register:声明寄存器变量</td>
+<td align="center">return:子程序返回语句(可以带参数,也可以不带参数)</td>
+<td align="center">short:声明短整型变量或函数</td>
+</tr>
+<tr>
+<td align="center">signed:声明有符号类型或变量长度</td>
+<td align="center">static:声明静态变量</td>
+<td align="center">struct:声明结构体类型</td>
+</tr>
+<tr>
+<td align="center">switch:用于开关语句(与case连用)</td>
+<td align="center">typedef:用以给数据类型取别名</td>
+<td align="center">unsigned:声明无符号类型变量或函数</td>
+</tr>
+<tr>
+<td align="center">union:声明共用体类型</td>
+<td align="center">void:声明函数无返回值或无参数,声明无类型指针</td>
+<td align="center">while:循环语句的循环条件</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><table>
+<thead>
+<tr>
+<th align="center">数据类型</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1.基本类型:</td>
+<td align="center">它们是算数类型,包括两种类型:整数类型和浮点类型</td>
+</tr>
+<tr>
+<td align="center">2.枚举类型:</td>
+<td align="center">它们也是算数类型,是被用来定义在程序中只能赋予其一定的离散整数值的变量</td>
+</tr>
+<tr>
+<td align="center">3.void类型:</td>
+<td align="center">类型说明符,void表明没有可用的值</td>
+</tr>
+<tr>
+<td align="center">4.派生类型:</td>
+<td align="center">它们包括:指针类型,数组类型,结构类型,共用体类型和函数类型</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="整数类型"><a href="#整数类型" class="headerlink" title="整数类型"></a>整数类型</h3><table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">存储大小</th>
+<th align="center">值范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">char</td>
+<td align="center">1字节</td>
+<td align="center">-128到127或0到255</td>
+</tr>
+<tr>
+<td align="center">unsigned char</td>
+<td align="center">1字节</td>
+<td align="center">0到255</td>
+</tr>
+<tr>
+<td align="center">signed char</td>
+<td align="center">1字节</td>
+<td align="center">-128到127</td>
+</tr>
+<tr>
+<td align="center">int</td>
+<td align="center">2到4字节</td>
+<td align="center">-32,768到32,768或-2,147,483,648到2,147,483,647</td>
+</tr>
+<tr>
+<td align="center">unsogned int</td>
+<td align="center">2到4字节</td>
+<td align="center">0到65,535或0到4,294,967,295</td>
+</tr>
+<tr>
+<td align="center">short</td>
+<td align="center">2字节</td>
+<td align="center">-32,768到32,767</td>
+</tr>
+<tr>
+<td align="center">unsigned short</td>
+<td align="center">2字节</td>
+<td align="center">0到65,535</td>
+</tr>
+<tr>
+<td align="center">long</td>
+<td align="center">4字节</td>
+<td align="center">-2,147,483,648到2,147,483,647</td>
+</tr>
+<tr>
+<td align="center">unsigned long</td>
+<td align="center">4字节</td>
+<td align="center">0到4,294,967,295</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h3><table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">存储大小</th>
+<th align="center">值范围</th>
+<th align="center">精度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">float</td>
+<td align="center">4字节</td>
+<td align="center">1.2E-38到3.4E+38</td>
+<td align="center">6位小数</td>
+</tr>
+<tr>
+<td align="center">double</td>
+<td align="center">8字节</td>
+<td align="center">2.3E-308到1.7E+308</td>
+<td align="center">15位小数</td>
+</tr>
+<tr>
+<td align="center">long double</td>
+<td align="center">16字节</td>
+<td align="center">3.4E-4932到1.1E+4932</td>
+<td align="center">19位小数</td>
+</tr>
+</tbody></table>
+<h3 id="void类型"><a href="#void类型" class="headerlink" title="void类型"></a>void类型</h3><pre><code>void类型指定没有可用的值
+1.函数返回为空
+C语言有各种函数都不返回值,或者您可以说它们返回为空,不返回值的函数的返回类型为空,例如:void exit(in status);
+
+2.函数参数为空
+C语言中有各种函数不接受任何参数,不带参数的函数可以接收一个void,例如:int rand(void);
+
+3.指针指向void
+类型为void\*的指针代表对象的地址,而不是类型,例如,内存分配函数void\* malloc(size-t size);返回指向void的指针,可以转换为任何数据类型</code></pre><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">char</td>
+<td align="center">通常是一个字节(八位),这是一个整数类型</td>
+</tr>
+<tr>
+<td align="center">int</td>
+<td align="center">对机器而言,整数的最自然的大小</td>
+</tr>
+<tr>
+<td align="center">float</td>
+<td align="center">单精度浮点值.格式:1位符号,8位指数,23位小数</td>
+</tr>
+<tr>
+<td align="center">double</td>
+<td align="center">双精度浮点值.格式:1位符号,11位指数,52位小数</td>
+</tr>
+<tr>
+<td align="center">void</td>
+<td align="center">表示类型的缺失</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="变量的声明"><a href="#变量的声明" class="headerlink" title="变量的声明"></a>变量的声明</h3><pre><code>1.一种是需要建立存储空间的,例:int a 在声明时就已经建立了存储空间.
+2.不需要建立存储空间的,通过使用extern关键字声明变量名而不是定义它.
+注:除非有extern关键字,否则都是变量的定义,
+extern int 1; //声明,而不是定义;
+int i; //声明,也是定义</code></pre><hr>
+<h3 id="左值与右值"><a href="#左值与右值" class="headerlink" title="左值与右值"></a>左值与右值</h3><table>
+<thead>
+<tr>
+<th align="center">左值</th>
+<th align="center">右值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">指向内存位置的表达式被成为左值表达式,左值可以出现在赋值号的左边或右边</td>
+<td align="center">术语右值指的是存储在内存中某些地址的数值,右值是不能对其进行赋值的表达式,也就是说,右值可以出现在赋值号的右边,但不能出现在赋值号的左边</td>
+</tr>
+</tbody></table>
+<pre><code>注:变量是左值,因此可以出现在赋值号的左边,数值型的字面值是右值,因此不能被赋值,不能出现在赋值号的左边
 例:
-折叠5-10行代码:zf10G</code></pre><hr>
+int g = 20; //此表达式对,成立.
+10 = 20; //此表达式为错,不成立.</code></pre><hr>
+<h2 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h2><pre><code>常量是固定值,在程序执行期间不会改变;
+常量可以是任何的基础数据类型,比如整数常量,浮点常量字符常量或字符串字面值,也有枚举常量;
+常量就像是常规的变量,只不过常量的值在定以后不能修改.</code></pre><p>例:</p>
+<table>
+<thead>
+<tr>
+<th align="center">常量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">85 十进制</td>
+</tr>
+<tr>
+<td align="center">0213 八进制</td>
+</tr>
+<tr>
+<td align="center">0x4b 十六进制</td>
+</tr>
+<tr>
+<td align="center">30 整数</td>
+</tr>
+<tr>
+<td align="center">30u 无符号整数</td>
+</tr>
+<tr>
+<td align="center">30l 长整数</td>
+</tr>
+<tr>
+<td align="center">30ul 无符号长整数</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="浮点常量"><a href="#浮点常量" class="headerlink" title="浮点常量"></a>浮点常量</h3><pre><code>由整数部分,小数点,小数部分和指数部分组成.
+例:3.14159</code></pre><hr>
+<h3 id="字符常量"><a href="#字符常量" class="headerlink" title="字符常量"></a>字符常量</h3><pre><code>字符常量括在单引号中;
+例:'x'可以存储在char类型的简单变量中
+例:printf("%d\n",x)</code></pre><hr>
+<h3 id="转义序列"><a href="#转义序列" class="headerlink" title="转义序列"></a>转义序列</h3><table>
+<thead>
+<tr>
+<th align="center">转义序列</th>
+<th align="center">含义</th>
+<th align="center">转义序列</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">\</td>
+<td align="center">\字符</td>
+<td align="center">\n</td>
+<td align="center">换行符</td>
+</tr>
+<tr>
+<td align="center">'</td>
+<td align="center">‘字符</td>
+<td align="center">\r</td>
+<td align="center">回车</td>
+</tr>
+<tr>
+<td align="center">"</td>
+<td align="center">“字符</td>
+<td align="center">\t</td>
+<td align="center">水平制表符</td>
+</tr>
+<tr>
+<td align="center">?</td>
+<td align="center">?字符</td>
+<td align="center">\v</td>
+<td align="center">垂直制表符</td>
+</tr>
+<tr>
+<td align="center">\a</td>
+<td align="center">警报铃声</td>
+<td align="center">\ooo</td>
+<td align="center">一到三位的八进制数</td>
+</tr>
+<tr>
+<td align="center">\b</td>
+<td align="center">退格键</td>
+<td align="center">\f</td>
+<td align="center">换页符</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="字符串常量"><a href="#字符串常量" class="headerlink" title="字符串常量"></a>字符串常量</h3><pre><code>字符串字面值或常量是括在双引号中的,一个字符串包含类似于字符常量的字符,普通的字符,转义序列和通用的字符.
+你可以使用空格做分隔符,把一个很长的字符串常量进行分行.
+例:
+"Hello,World"
+"Hello,\
+ dear"
+"Hello,""d""ear"</code></pre><hr>
+<h3 id="定义常量"><a href="#定义常量" class="headerlink" title="定义常量"></a>定义常量</h3><pre><code>1.使用#define预处理器
+2.使用const关键字
+例:
+#define LENGTH 10 //定义一个常量,把10赋值给常量
+const type variable = value;</code></pre><hr>
+<h2 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符"></a>算数运算符</h2><table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">描述</th>
+<th align="center">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">+</td>
+<td align="center">两个数相加</td>
+<td align="center">A+B将得到30</td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">从第一个操作数中减去第二个操作数</td>
+<td align="center">A-B将得到-10</td>
+</tr>
+<tr>
+<td align="center">*</td>
+<td align="center">两个操作数相乘</td>
+<td align="center">A*B将得到200</td>
+</tr>
+<tr>
+<td align="center">/</td>
+<td align="center">分子除以分母</td>
+<td align="center">B/A将得到2</td>
+</tr>
+<tr>
+<td align="center">%</td>
+<td align="center">取模运算符,整除后的余数</td>
+<td align="center">B%A将得到0</td>
+</tr>
+<tr>
+<td align="center">++</td>
+<td align="center">自增运算符,整数值增加1</td>
+<td align="center">A++将得到11</td>
+</tr>
+<tr>
+<td align="center">–</td>
+<td align="center">自减运算符,整数值减少1</td>
+<td align="center">A–将得到9</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h2><table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">描述</th>
+<th align="center">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">==</td>
+<td align="center">检查两个操作数的值是否相等,如相等则条件为真</td>
+<td align="center">(A==B)为假</td>
+</tr>
+<tr>
+<td align="center">!=</td>
+<td align="center">检查两个操作数的值是否相等,如不相等则条件为真</td>
+<td align="center">(A!=B)为真</td>
+</tr>
+<tr>
+<td align="center">&gt;</td>
+<td align="center">检查左操作数的值是否大于右操作数的值,如果是则条件为真</td>
+<td align="center">(A&gt;B为假)</td>
+</tr>
+<tr>
+<td align="center">&lt;</td>
+<td align="center">检查左操作数的值是否小于右操作数的值,如果是则条件为真</td>
+<td align="center">(A&lt;B为真)</td>
+</tr>
+<tr>
+<td align="center">&gt;=</td>
+<td align="center">检查左操作数的值是否大于或等于右操作数的值,如果是则条件为真</td>
+<td align="center">(A&gt;=B为假)</td>
+</tr>
+<tr>
+<td align="center">&lt;=</td>
+<td align="center">检查左操作数的值是否小于或等于右操作数的值,如果是则条件为真</td>
+<td align="center">(A&lt;=B为真)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">描述</th>
+<th align="center">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">&amp;&amp;</td>
+<td align="center">逻辑与运算符,如果两个操作数非零,则条件为真</td>
+<td align="center">(A&amp;&amp;B)为假</td>
+</tr>
+<tr>
+<td align="center">||</td>
+<td align="center">逻辑或运算符,如果两个操作数中有任意一个非零,则条件为真</td>
+<td align="center">(A||B)为真</td>
+</tr>
+<tr>
+<td align="center">!</td>
+<td align="center">逻辑非运算符,用来逆转操作数的逻辑状态</td>
+<td align="center">如果条件为真,则逻辑非运算符将使其为假</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">描述</th>
+<th align="center">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">=</td>
+<td align="center">把右边操作数赋给左边操作数</td>
+<td align="center">C=A+B,将A+B的值赋给C</td>
+</tr>
+<tr>
+<td align="center">+=</td>
+<td align="center">加且赋值运算符,把右边操作数加上左边操作数赋给左边操作数</td>
+<td align="center">C+=A相当于C=C+A</td>
+</tr>
+<tr>
+<td align="center">-=</td>
+<td align="center">减且赋值运算符,把右边操作数减去左边操作数赋给左边操作数</td>
+<td align="center">C-=A相当于C=C-A</td>
+</tr>
+<tr>
+<td align="center">*=</td>
+<td align="center">乘且赋值运算符,把右边操作数乘左边操作数赋给左边操作数</td>
+<td align="center">C<em>=A相当于C=C</em>A</td>
+</tr>
+<tr>
+<td align="center">/=</td>
+<td align="center">除且赋值运算符,把左边操作数除以右边操作数赋给左边操作数</td>
+<td align="center">C/=A相当于C=C/A</td>
+</tr>
+<tr>
+<td align="center">%=</td>
+<td align="center">求模且赋值运算符,求两个操作数的模赋值给左边操作数</td>
+<td align="center">C%=A相当于C=C%A</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="占位符"><a href="#占位符" class="headerlink" title="占位符"></a>占位符</h2><table>
+<thead>
+<tr>
+<th align="center">占位符①</th>
+<th align="center">占位符②</th>
+<th align="center">占位符③</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">%d,%i 代表十进制整数</td>
+<td align="center">%f 代表浮点</td>
+<td align="center">%s 代表字符串</td>
+</tr>
+<tr>
+<td align="center">%c 代表char</td>
+<td align="center">%p 代表指针</td>
+<td align="center">%fL 代表长log</td>
+</tr>
+<tr>
+<td align="center">%e 代表科学计数</td>
+<td align="center">%g 代表小数</td>
+<td align="center">%a,%A 代表读入一个浮点值(仅C99可用)</td>
+</tr>
+<tr>
+<td align="center">%c 代表读入一个字符</td>
+<td align="center">%u 代表无符号十进制整数</td>
+<td align="center">% n 代表等价字符</td>
+</tr>
+<tr>
+<td align="center">%o 代表八进制整数</td>
+<td align="center">%x,%X 代表十六禁止整数</td>
+<td align="center">%f,%F,%e,%E,%g,%G 代表实数</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="堆和栈"><a href="#堆和栈" class="headerlink" title="堆和栈"></a>堆和栈</h2><pre><code>栈:有效的是局部变量(在方法和语句块内部定义的变量),当方法和语句块一结束.空间马上释放.
+堆:存放的是成员变量(也叫属性,在方法外,在类里定义的变量),随着对象而产生,随着对象销毁而销毁.
+数据段:存放的是类变量(也叫静态变量,和成员变量相比多加上关键字staic),常驻内存,创建好之后不会消失.
+代码段:是存了程序代码的数据,在代码段中,也有可能包含一些只读的常数变量,例如字符串常量等.</code></pre><hr>
+<p><img src="https://www.xmubshw.com/down/xdh/duihezhan.jpg" alt="堆和栈"></p>
+<hr>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -604,7 +1084,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://xdhxm.xmubshw.com/2019/12/24/vim-ji-ben-ming-ling-xue-xi-bi-ji/">https://xdhxm.xmubshw.com/2019/12/24/vim-ji-ben-ming-ling-xue-xi-bi-ji/</a>
+                    <a href="https://xdhxm.xmubshw.com/2019/12/25/c-yu-yan-xue-xi-bi-ji/">https://xdhxm.xmubshw.com/2019/12/25/c-yu-yan-xue-xi-bi-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -642,8 +1122,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Vim/">
-                                    <span class="chip bg-color">Vim</span>
+                                <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                                    <span class="chip bg-color">C语言</span>
                                 </a>
                             
                         </div>
@@ -1076,6 +1556,58 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
+                <a href="/2019/12/25/javascriptes6-yu-fa-xue-xi-bi-ji/">
+                    <div class="card-image">
+                        
+                        <img src="https://www.xmubshw.com/down/xdh/JavaScriptES6img.jpg" class="responsive-img" alt="JavaScriptES6语法学习笔记">
+                        
+                        <span class="card-title">JavaScriptES6语法学习笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            JavaScriptES6语法学习笔记
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-25
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/JavaScript/" class="post-category">
+                                    JavaScript
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/JavaScript/">
+                        <span class="chip bg-color">JavaScript</span>
+                    </a>
+                    
+                    <a href="/tags/ES6/">
+                        <span class="chip bg-color">ES6</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
                 <a href="/2019/12/24/linux-ji-ben-cao-zuo-xue-xi-bi-ji/">
                     <div class="card-image">
                         
@@ -1091,9 +1623,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1111,54 +1643,6 @@
                     
                     <a href="/tags/Linux/">
                         <span class="chip bg-color">Linux</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2019/12/24/git-ji-ben-ming-ling-xue-xi-bi-ji/">
-                    <div class="card-image">
-                        
-                        <img src="https://www.xmubshw.com/down/xdh/Gitimg.jpg" class="responsive-img" alt="Git基本命令学习笔记">
-                        
-                        <span class="card-title">Git基本命令学习笔记</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Git基本命令学习笔记
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-24
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Git/" class="post-category">
-                                    Git
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Git/">
-                        <span class="chip bg-color">Git</span>
                     </a>
                     
                 </div>

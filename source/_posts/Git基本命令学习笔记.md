@@ -2,13 +2,13 @@
 title: Git基本命令学习笔记
 date: 2019-12-24 11:00:00
 author: 小茗
-img: https://desk-fd.zol-img.com.cn/t_s960x600c5/g1/M04/0F/0F/ChMljl2f2W-II-2vAEbcng7su_UAAP7oALQx5YARty2717.jpg
+img: https://www.xmubshw.com/down/xdh/Gitimg.jpg
 top: true
 cover: true
-coverImg: https://desk-fd.zol-img.com.cn/t_s960x600c5/g1/M04/0F/0F/ChMljl2f2W-II-2vAEbcng7su_UAAP7oALQx5YARty2717.jpg
+coverImg: https://www.xmubshw.com/down/xdh/Gitimg.jpg
 mathjax: false
 summary: Git基本命令学习笔记
-categories: Gim
+categories: Git
 tags:
   - Git
 ---
